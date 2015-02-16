@@ -6,7 +6,7 @@
     "Cacycle (https://en.wikipedia.org/wiki/User:Cacycle)"
   ],
   "description": "wikEdDiff",
-  "main": "wikEdDiff.json",
+  "main": "wikEdDiff.js",
   "license": "public domain",
   "ignore": [
     "**/.*",
