@@ -1,0 +1,18 @@
+{
+  "name": "wikEddiff",
+  "version": "0.0.0",
+  "homepage": "https://en.wikipedia.org/wiki/User:Cacycle/diff",
+  "authors": [
+    "Cacycle (https://en.wikipedia.org/wiki/User:Cacycle)"
+  ],
+  "description": "wikEddiff",
+  "main": "wikEddiff.json",
+  "license": "public domain",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
