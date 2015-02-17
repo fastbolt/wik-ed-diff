@@ -136,19 +136,14 @@
 
 // Turn on ECMAScript 5 strict mode
 'use strict';
-
-/** Define global objects. */
-var wikEdDiffConfig;
-var WED;
-
-
 /**
  * wikEd diff main class.
  *
  * @class WikEdDiff
  */
 var WikEdDiff = function () {
-
+	/** Define global objects. */
+	this wikEdDiffConfig={};
 	/** @var array config Configuration and customization settings. */
 	this.config = {
 
