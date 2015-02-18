@@ -884,11 +884,11 @@ var WikEdDiff = function () {
 	 * @param[out] object config Settings
 	 */
 
-	selfself.init = function () {
+	self.init = function () {
 
 		// Import customizations from wikEdDiffConfig{}
-		if ( typeof wikEdDiffConfig === 'object' ) {
-			self.deepCopy( wikEdDiffConfig, self.config );
+		if ( typeof self.wikEdDiffConfig === 'object' ) {
+			self.deepCopy( self.wikEdDiffConfig, self.config );
 		}
 
 		// Add CSS stylescheet
@@ -4570,3 +4570,4 @@ WikEdDiff.WikEdDiffText = function ( text, parent ) {
 };
 
 // </syntaxhighlight>
+module.exports = WikEdDiff;
