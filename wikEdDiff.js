@@ -4570,4 +4570,6 @@ WikEdDiff.WikEdDiffText = function ( text, parent ) {
 };
 
 // </syntaxhighlight>
-module.exports = WikEdDiff;
+if (typeof module === 'object' && typeof module.exports === 'object') {
+    module.exports = WikEdDiff;
+}
